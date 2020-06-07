@@ -1,0 +1,132 @@
+{
+    "title":"map_of_romania",
+    "distance_unit":"km",
+    "cities":
+    [
+        {"name":"Oradea",
+            "connections":
+            [
+                {"name":"Zerind", "distance":71},
+                {"name":"Siblu", "distance":151}
+            ]},
+        {"name":"Zerind", 
+            "connections":
+            [
+                {"name":"Arad", "distance":75},
+                {"name":"Oradea","distance":71}
+            ]},
+        {"name":"Arad",
+            "connections":
+            [
+                {"name":"Zerind", "distance":75},
+                {"name":"Siblu","distance":140},
+                {"name":"Timisoara","distance":118}
+            ]},
+         {"name":"Timisoara",
+            "connections":
+            [
+                {"name":"Arad", "distance":118},
+                {"name":"Lugoj","distance":111}
+            ]},
+        {"name":"Lugoj",
+            "connections":
+            [
+                {"name":"Mehadla", "distance":70},
+                {"name":"Timisoara","distance":111}
+            ]},
+        {"name":"Mehadla",
+            "connections":
+            [
+                {"name":"Lugoj", "distance":70},
+                {"name":"Dobreta","distance":75}
+            ]},
+        {"name":"Dobreta",
+            "connections":
+            [
+                {"name":"Craiova", "distance":120},
+                {"name":"Mehadla","distance":75}
+            ]},
+        {"name":"Craiova",
+            "connections":
+            [
+                {"name":"Dobreta", "distance":120},
+                {"name":"Pitesti","distance":138},
+                {"name":"Rimnicu Vicea","distance":146}
+            ]},
+        {"name":"Rimnicu Vicea",
+            "connections":
+            [
+                {"name":"Craiova", "distance":146},
+                {"name":"Siblu","distance":80},
+                {"name":"Pitesti","distance":97}
+            ]},
+        {"name":"Siblu",
+            "connections":
+            [
+                {"name":"Rimnicu Vicea", "distance":80},
+                {"name":"Arad","distance":140},
+                {"name":"Oradea","distance":151},
+                {"name":"Fagaras","distance":99}
+            ]},
+        {"name":"Pitesti",
+            "connections":
+            [
+                {"name":"Rimnicu Vicea", "distance":97},
+                {"name":"Bucharest","distance":101}
+            ]},
+        {"name":"Fagaras",
+            "connections":
+            [
+                {"name":"Siblu", "distance":99},
+                {"name":"Bucharest","distance":211}
+            ]},
+        {"name":"Bucharest",
+            "connections":
+            [
+                {"name":"Fagaras", "distance":211},
+                {"name":"Pitesti","distance":101},
+                {"name":"Giurgiu","distance":90},
+                {"name":"Urziceni","distance":85}                
+            ]},
+        {"name":"Giurgiu",
+            "connections":
+            [
+                {"name":"Bucharest", "distance":90}
+            ]},
+        {"name":"Urziceni",
+            "connections":
+            [
+                {"name":"Bucharest", "distance":85},
+                {"name":"Hirsova","distance":98},
+                {"name":"Vasiul","distance":142}
+            ]},
+        {"name":"Hirsova",
+            "connections":
+            [
+                {"name":"Urziceni", "distance":98},
+                {"name":"Eforie","distance":86}
+            ]},
+         {"name":"Eforie",
+            "connections":
+            [
+                {"name":"Hirsova", "distance":86}
+            ]},
+        {"name":"Vasiul",
+            "connections":
+            [
+                {"name":"Urziceni", "distance":142},
+                {"name":"Iassi","distance":92}
+            ]},
+        {"name":"Iassi",
+            "connections":
+            [
+                {"name":"Vasiul", "distance":92},
+                {"name":"Neamt","distance":87}
+            ]},
+        {"name":"Neamt",
+            "connections":
+            [
+                {"name":"Iassi", "distance":87}
+            ]}
+    ]
+}
